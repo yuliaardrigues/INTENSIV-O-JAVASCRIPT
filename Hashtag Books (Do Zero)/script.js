@@ -12,7 +12,6 @@ function tocarFaixa() {
   audio.play();
   botaoPlayPause.classList.remove("bi-play-circle");
   botaoPlayPause.classList.add("bi-pause-circle");
-  
 }
 
 function pausarFaixa() {
@@ -33,7 +32,7 @@ function tocarOuPausar() {
 }
 
 function trocarNomeFaixa() {
-  nomeCapitulo.innerText = 'Capitulo' + capituloAtual;
+  nomeCapitulo.innerText = "Capitulo" + capituloAtual;
   tocarFaixa();
   taTocando = 1;
 }
